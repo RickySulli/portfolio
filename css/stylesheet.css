@@ -5,8 +5,8 @@
 }
 header {
 display:flex;
-background-color:greenyellow;
-padding: 19px 24px;
+background-color:beige;
+padding: 19px 24px;back
 color: orangered;
 justify-content: space-between;
 font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -18,7 +18,6 @@ header a {
 }
 header h1 {
     text-decoration: none;
-
 }
 header nav{
 margin: 15px 0 3px 0;
@@ -32,4 +31,29 @@ header nav ul {
 }
 header nav ul li a {
     margin:0 40px;
+}
+.hero {
+height: 600px;
+background-image: 
+url(../assets/Images/fourtune\ abort.jpg);
+background-position: center;
+background-size: cover;
+color: white;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+font-size: 30px;
+}
+.easy{
+position: absolute;
+bottom: 11%;
+right: 10%;
+
+}
+.about-me {
+    height:500px;
+    border: 25px solid beige;
+    display:grid;
+  
+}
+.statement {
+    width:200px;
 }
