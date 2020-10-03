@@ -2,11 +2,12 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
 }
 header {
 display:flex;
 background-color:beige;
-padding: 19px 24px;back
+padding: 19px 24px;back;
 color: orangered;
 justify-content: space-between;
 font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -33,34 +34,31 @@ header nav ul li a {
     margin:0 40px;
 }
 .hero {
-height: 600px;
 background-image: 
 url(../assets/Images/fourtune\ abort.jpg);
-background-position: center;
-background-size: cover;
-color: white;
-font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-font-size: 30px;
+    background-size: cover;
+    background-position: center;
+    height: 300px;
 }
 .easy{
 position: absolute;
+color: white;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 bottom: 11%;
 right: 10%;
-
 }
 .about-me {
     height:300px;
     width:100%;
-    border: 10px solid black;
+    border: 10px solid beige;
     position: relative;
     display: flex;
     align-items: stretch;
-
-  
+    background-color: beige;
 }
 .statement {
     width:30%;
-    height: 100%;
+    height: 50%;
     border-right: solid blue 10px;
     background-color: beige;
     font-size: 60px;
@@ -69,18 +67,21 @@ right: 10%;
     position: absolute;
 }
 .bio {
+background-color: beige;
 flex-wrap:wrap;
 position: absolute;
 width:70%;
 right:0px;
 top: 5%;
+border: solid beige 10px;
 }
 .work {
     height:300px;
     width:100%;
-    border: solid black 10px;
+    border: solid beige 10px;
     position: relative;
-    align-items: stretch;
+    background-color: beige;
+    
 }
 .work-grid {
     height: 100%;
@@ -91,11 +92,13 @@ top: 5%;
     display: grid;
     grid-template-columns:repeat(6, 1fr);
     grid-template-rows: repeat(6, 1fr);
-    grid-row-gap:10px;
+    grid-row-gap: 10px;
     grid-column-gap:10px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 20px;
-    color: orangered;
+    color: orangered; 
+    border: solid beige 10px;  
+    background-color: beige;
 
 }
 .box1 {
@@ -135,5 +138,27 @@ top: 5%;
     background-repeat: no-repeat;
     grid-column: 3/5;
     grid-row:5/7
-
+}
+.contact {
+    height: 200px;
+    width: 100%;
+    background-color: beige;
+    position: relative;
+}
+.contact-info {
+    width: 70%;
+    right:0px;
+    top:0px;
+    background-color:beige;
+    color: orangered;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    position: absolute;
+    }
+    .contact-info ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    justify-items: flex-end;
+    list-style: none;
+    }
 }
