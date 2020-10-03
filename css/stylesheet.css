@@ -9,7 +9,7 @@ background-color:beige;
 padding: 19px 24px;back
 color: orangered;
 justify-content: space-between;
-font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 header a {
@@ -50,10 +50,25 @@ right: 10%;
 }
 .about-me {
     height:500px;
-    border: 25px solid beige;
-    display:grid;
+    width:100%;
+    border: 25px solid black;
+    position: relative;
   
 }
 .statement {
-    width:200px;
+    width:30%;
+    height: 200px;
+    border-right: solid blue 10px;
+    background-color: beige;
+    font-size: 60px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: blue;
+    position: absolute;
+}
+.bio {
+flex-wrap:wrap;
+position: absolute;
+width:70%;
+right:0px;
+top: 5%;
 }
