@@ -1,41 +1,69 @@
+:root{
+    background-color: beige;
+    font-size: 62.5%;
+}
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-header {
-display:flex;
-background-color:beige;
-padding: 19px 24px;
-color: orangered;
-justify-content: space-between;
-font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+.name{
+    height: 170px;
 
 }
+header {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 3rem;
+    color: orangered;
+    position: relative;
+    justify-content: space-around;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 
-header a {
+}
+.navbar{
+    position: relative;;
+}
+header h1 a{
+    text-decoration: none;
+    font-size: 3rem;
+    color: orangered;
+    padding: 2rem 3.5rem;
+   
+}
+header h1 a:hover{
+    font-size: 3.5rem;
+}
+
+
+header nav ul{
+    justify-content: space-around;
+    display: flex;
+    list-style: none;  
+    
+    
+}
+li{
+    display: flex;
+    padding: 1.1rem 3.5rem;
+    flex-direction: row;
+    font-size: 2.8rem;
+    
+}
+header nav ul li:hover{
+    font-style: italic;
+    font-size: 2.5rem;
+    padding:0.4rem 2.8rem;
+    
+}
+header nav ul li a{
     color: orangered;
     text-decoration: none;
 }
-a:hover {
-    font-size:150%;
-}
-header h1 {
-    text-decoration: none;
-}
-header nav{
-margin: 15px 0 3px 0;
-justify-content: space-between;
-}
-header nav ul {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    list-style: none;
-}
-header nav ul li a {
-    margin:0 40px;
-}
+    
+    
+
 .hero {
 background-image: 
 url(../assets/Images/fourtune\ abort.jpg);
@@ -51,6 +79,7 @@ color: white;
 font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 bottom: 10%;
 right: 10%;
+font-size: 3.5rem;
 }
 
 .row{
@@ -61,6 +90,22 @@ right: 10%;
     background-color: beige;
     margin-top: beige 15px;
 }
+.workrow{
+    display:grid;
+    grid-gap: 10px;
+     grid-template-columns: 30% 70%;
+     height: 500px;
+     background-color: beige;
+     margin-top: beige 15px;
+ }
+ .contactrow{
+    display:grid;
+    grid-gap: 10px;
+     grid-template-columns: 30% 70%;
+     height: 130px;
+     background-color: beige;
+     margin-top: beige 15px;
+ }
 .statement {
     flex-wrap: wrap;
     font-size: 35px;
@@ -68,6 +113,10 @@ right: 10%;
     background-color: beige;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     border-right: blue solid 20px;
+    margin-top: 2rem;
+    margin-top:2rem;
+    overflow: hidden;
+    
 }
 
 .about-me {
@@ -80,15 +129,16 @@ right: 10%;
     background-color: beige;
 }
 .bio{
-    width: 70%;
+    width: 100%;
     background-color: beige;
+    font-size: 2.3rem;
 }
 .work{
     width: 100%;
 }
 .work-grid {
     height: 100%;
-    width: 70%;
+    width: 100%;
     right:0px;
     top:0px;
     position: relative;
@@ -122,13 +172,14 @@ right: 10%;
     box-shadow:5px 5px 7px cadetblue;
 }
 .box3 {
-    background-image: url(../assets/Images/drums.jpg);
+    background-image: url(../assets/Images/quiz.png);
     background-size:cover;
     background-repeat: no-repeat;
     background-position: center;
     grid-column: 5/7;
     grid-row: 3/5;
     box-shadow:5px 5px 7px cadetblue;
+    
 }
 .box4 {
     background-image: url(../assets/Images/puzzles.jpg);
@@ -167,6 +218,9 @@ right: 10%;
 .box5:hover{
     opacity: 0.5;
 }
+.overlap{
+    white-space: normal;
+}
 .contact-info ul {
         display: flex;
         flex-wrap: wrap;
@@ -174,8 +228,8 @@ right: 10%;
         list-style: none;
         font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     }
-@media (max-width 780px){
-    .statement{
-        font-size: 20px;
+@media only screen and (max-width 950px){
+    header h1 a{
+        font-size: 1.8rem;
+        padding: 1.1rem 1.1rem;
     }
-}
