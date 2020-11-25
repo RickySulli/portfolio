@@ -1,0 +1,49 @@
+header {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 3rem;
+    color: orangered;
+    position: relative;
+    justify-content: space-around;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+
+    .navbar{
+        position: relative;
+    }
+    h1{
+
+        a{
+        text-decoration: none;
+        font-size: 3rem;
+        color: orangered;
+        padding: 2rem 3.5rem;
+    }
+        a:hover{
+            font-size: 3.5rem;
+        }
+    
+    }
+         
+
+
+
+
+     ul {
+         li{
+             a{
+                color: orangered;
+                text-decoration: none;
+                }
+
+             }
+                li:hover{
+            font-style: italic;
+            font-size: 2.5rem;
+            padding:0.4rem 2.8rem;
+            
+            }
+         }   
+     }
+
