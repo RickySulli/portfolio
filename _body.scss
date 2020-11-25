@@ -1,0 +1,54 @@
+.row{
+    display:grid;
+    grid-gap: 10px;
+     grid-template-columns: 30% 70%;
+     height: 275px;
+     background-color: beige;
+     margin-top: beige 15px;
+ }
+ .workrow{
+     display:grid;
+     grid-gap: 10px;
+      grid-template-columns: 30% 70%;
+      height: 500px;
+      background-color: beige;
+      margin-top: beige 15px;
+  }
+  .contactrow{
+     display:grid;
+     grid-gap: 10px;
+      grid-template-columns: 30% 70%;
+      height: 130px;
+      background-color: beige;
+      margin-top: beige 15px;
+  }
+ .statement {
+     flex-wrap: wrap;
+     font-size: 35px;
+     color: blue;
+     background-color: beige;
+     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+     border-right: blue solid 20px;
+     margin-top: 2rem;
+     margin-top:2rem;
+     overflow: hidden;
+     
+ }
+ 
+ .about-me {
+     height: 400px;
+     width: 100%;
+     border: 10px solid beige;
+     position: relative;
+     display: flex;
+     align-items: stretch;
+     background-color: beige;
+ }
+ .bio{
+     width: 100%;
+     background-color: beige;
+     font-size: 2.3rem;
+ }
+ .work{
+     width: 100%;
+ }
